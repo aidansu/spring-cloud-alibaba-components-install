@@ -1,0 +1,61 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sentinel-dashboard
+  labels:
+    app: sentinel-dashboard
+spec:
+  ports:
+    - port: 8080
+      name: server
+      targetPort: 8080
+      nodePort: 30080
+  selector:
+    app: sentinel
+  sessionAffinity: ClientIP
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sentinel
+spec:
+  serviceName: sentinel-dashboard
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sentinel
+      annotations:
+        pod.alpha.kubernetes.io/initialized: "true"
+    spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: "app"
+                    operator: In
+                    values:
+                      - sentinel-dashboard
+              topologyKey: "kubernetes.io/hostname"
+      containers:
+        - name: k8ssentinel
+          imagePullPolicy: Always
+          image: aidansu/sentinel-dashboard:1.7.1
+          resources:
+            requests:
+              memory: "2Gi"
+              cpu: "500m"
+          ports:
+            - containerPort: 8080
+              name: client
+          env:
+            - name: TZ
+              value: Asia/Shanghai
+            - name: JAVA_OPTS
+              value: -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dsentinel.dashboard.auth.username=sentinel -Dsentinel.dashboard.auth.password=sentinel -Dserver.servlet.session.timeout=7200
+  selector:
+    matchLabels:
+      app: sentinel

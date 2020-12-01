@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  namesrv:
+    image: aidansu/sentinel-dashboard:1.7.1
+    container_name: sentinel-dashboard
+    ports:
+      - 30080:8080
+    environment:
+      - JAVA_OPTS= -Dserver.port=8080 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dsentinel.dashboard.auth.username=sentinel -Dsentinel.dashboard.auth.password=sentinel -Dserver.servlet.session.timeout=7200
