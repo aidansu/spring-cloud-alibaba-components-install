@@ -6,7 +6,7 @@ spring-cloud-alibaba-middleware-install
 ├── nacos               -- nacos 部署文件
 ├    ├── docker         -- nacos docker-compose部署文件 
 ├    ├── kubernetes     -- nacos kubernetes部署文件 
-├── sentinel-dashboard  -- nacos 部署文件
+├── sentinel-dashboard  -- sentinel-dashboard 部署文件
 ├    ├── docker         -- sentinel-dashboard docker-compose部署文件 
 ├    ├── kubernetes     -- sentinel-dashboard kubernetes部署文件 
 ```
