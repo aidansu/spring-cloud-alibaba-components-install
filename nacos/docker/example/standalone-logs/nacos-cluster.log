@@ -1,0 +1,26 @@
+2020-06-16 08:35:42,292 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-06-16 08:35:42,302 WARN [serverlist] updated to : [Member{address='67306803fc67:8848'}]
+
+2020-06-16 08:35:52,134 INFO This node is ready to provide external services
+
+2020-06-16 08:57:52,198 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-06-16 08:57:52,209 WARN [serverlist] updated to : [Member{address='2b7aef1c6199:8848'}]
+
+2020-06-16 08:57:59,992 INFO This node is ready to provide external services
+
+2020-06-16 09:00:44,028 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-06-16 09:00:44,037 WARN [serverlist] updated to : [Member{address='2b7aef1c6199:8848'}]
+
+2020-06-16 09:00:51,760 INFO This node is ready to provide external services
+
+2020-06-16 09:06:13,207 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-06-16 09:06:13,218 WARN [serverlist] updated to : [Member{address='e38af0eddbc1:8848'}]
+
+2020-06-16 09:08:20,856 INFO Current addressing mode selection : StandaloneMemberLookup
+
+2020-06-16 09:08:20,866 WARN [serverlist] updated to : [Member{address='1edfeb5ac36a:8848'}]
+

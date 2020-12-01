@@ -1,0 +1,20 @@
+2020-06-16 08:35:45,004 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-06-16 08:35:45,009 INFO listen for service meta change
+
+2020-06-16 08:57:54,245 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-06-16 08:57:54,249 INFO listen for service meta change
+
+2020-06-16 09:00:45,999 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-06-16 09:00:46,004 INFO listen for service meta change
+
+2020-06-16 09:06:15,309 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-06-16 09:06:15,313 INFO listen for service meta change
+
+2020-06-16 09:08:22,865 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-06-16 09:08:22,869 INFO listen for service meta change
+

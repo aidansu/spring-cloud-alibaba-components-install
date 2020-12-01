@@ -1,0 +1,94 @@
+2020-06-16 08:35:42,464 INFO raft peers changed: [Member{address='67306803fc67:8848'}]
+
+2020-06-16 08:35:42,556 INFO initializing Raft sub-system
+
+2020-06-16 08:35:42,557 INFO raft notifier started
+
+2020-06-16 08:35:42,557 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2020-06-16 08:35:42,565 INFO cache loaded, datum count: 0, current term: 0
+
+2020-06-16 08:35:42,565 INFO finish to load data from disk, cost: 9 ms.
+
+2020-06-16 08:35:42,590 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-06-16 08:35:44,933 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-06-16 08:35:45,010 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-06-16 08:57:52,370 INFO raft peers changed: [Member{address='2b7aef1c6199:8848'}]
+
+2020-06-16 08:57:52,441 INFO initializing Raft sub-system
+
+2020-06-16 08:57:52,442 INFO raft notifier started
+
+2020-06-16 08:57:52,442 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-06-16 08:57:52,447 INFO cache loaded, datum count: 0, current term: 0
+
+2020-06-16 08:57:52,447 INFO finish to load data from disk, cost: 5 ms.
+
+2020-06-16 08:57:52,465 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-06-16 08:57:54,193 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-06-16 08:57:54,250 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-06-16 09:00:44,186 INFO raft peers changed: [Member{address='2b7aef1c6199:8848'}]
+
+2020-06-16 09:00:44,257 INFO initializing Raft sub-system
+
+2020-06-16 09:00:44,258 INFO raft notifier started
+
+2020-06-16 09:00:44,258 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-06-16 09:00:44,263 INFO cache loaded, datum count: 0, current term: 0
+
+2020-06-16 09:00:44,264 INFO finish to load data from disk, cost: 6 ms.
+
+2020-06-16 09:00:44,282 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-06-16 09:00:45,954 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-06-16 09:00:45,977 INFO leader timeout, start voting,leader: {"ip":"2b7aef1c6199:8848","term":0,"leaderDueMs":17084,"heartbeatDueMs":4500,"state":"FOLLOWER"}, term: 0
+
+2020-06-16 09:00:46,004 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-06-16 09:06:13,379 INFO raft peers changed: [Member{address='e38af0eddbc1:8848'}]
+
+2020-06-16 09:06:13,464 INFO initializing Raft sub-system
+
+2020-06-16 09:06:13,465 INFO raft notifier started
+
+2020-06-16 09:06:13,465 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2020-06-16 09:06:13,472 INFO cache loaded, datum count: 0, current term: 0
+
+2020-06-16 09:06:13,472 INFO finish to load data from disk, cost: 8 ms.
+
+2020-06-16 09:06:13,493 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-06-16 09:06:15,261 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-06-16 09:06:15,313 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-06-16 09:08:21,030 INFO raft peers changed: [Member{address='1edfeb5ac36a:8848'}]
+
+2020-06-16 09:08:21,098 INFO initializing Raft sub-system
+
+2020-06-16 09:08:21,099 INFO raft notifier started
+
+2020-06-16 09:08:21,099 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-06-16 09:08:21,103 INFO cache loaded, datum count: 0, current term: 0
+
+2020-06-16 09:08:21,103 INFO finish to load data from disk, cost: 4 ms.
+
+2020-06-16 09:08:21,120 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-06-16 09:08:22,818 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-06-16 09:08:22,869 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-06-16 09:08:23,321 INFO leader timeout, start voting,leader: {"ip":"1edfeb5ac36a:8848","term":0,"leaderDueMs":15445,"heartbeatDueMs":4500,"state":"FOLLOWER"}, term: 0
+

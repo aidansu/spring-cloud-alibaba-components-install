@@ -1,0 +1,38 @@
+version: "3.3"
+services:
+  nacos:
+    image: nacos/nacos-server:1.2.1
+    container_name: nacos_standalone_mysql
+    env_file:
+      - ./env/nacos-standlone-mysql.env
+    volumes:
+      - ./standalone-logs/:/home/nacos/logs
+      - ./init.d/custom.properties:/home/nacos/init.d/custom.properties
+    ports:
+      - 8848:8848
+      - 9555:9555
+    depends_on:
+      - nacos_mysql
+    links:
+      - nacos_mysql:mysql
+    restart: on-failure
+  nacos_mysql:
+    container_name: nacos_mysql
+    image: nacos/nacos-mysql:5.7
+    env_file:
+      - ./env/mysql.env
+    volumes:
+      - ./mysql:/var/lib/mysql
+  prometheus:
+    container_name: nacos_rometheus
+    image: prom/prometheus:v2.19.0
+    volumes:
+      - ./prometheus/prometheus-standalone.yaml:/etc/prometheus/prometheus.yml
+    depends_on:
+      - nacos
+    restart: on-failure
+  grafana:
+    container_name: nacos_grafana
+    image: grafana/grafana:7.0.3
+    restart: on-failure
+

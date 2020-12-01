@@ -1,0 +1,36 @@
+2020-06-16 08:35:40,706 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-06-16 08:35:45,479 WARN isQuickStart:false
+
+2020-06-16 08:57:50,811 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-06-16 08:57:54,602 WARN isQuickStart:false
+
+2020-06-16 09:00:42,598 WARN [master-db] jdbc:mysql://mysql:3306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-06-16 09:00:46,354 WARN isQuickStart:false
+
+2020-06-16 09:06:06,682 ERROR [master-db] master db not found.
+
+2020-06-16 09:06:11,860 ERROR [db-error] master db  down.
+
+2020-06-16 09:06:15,640 WARN isQuickStart:false
+
+2020-06-16 09:06:15,662 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2020-06-16 09:08:14,294 ERROR [master-db] master db not found.
+
+2020-06-16 09:08:19,486 ERROR [db-error] master db  down.
+
+2020-06-16 09:08:23,208 WARN isQuickStart:false
+
+2020-06-16 09:08:23,228 ERROR Nacos Server did not start because dumpservice bean construction failure :
+java.lang.IllegalStateException: No DataSource set
+
+2020-06-16 09:08:34,689 ERROR [master-db] master db not found.
+
+2020-06-16 09:08:39,750 ERROR [db-error] master db  down.
+
+2020-06-16 09:08:49,862 ERROR [master-db] master db not found.
+
