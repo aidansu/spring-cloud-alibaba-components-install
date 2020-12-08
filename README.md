@@ -1,5 +1,9 @@
 # Spring Cloud Alibaba 组件部署
 
+## 部署方式
+* docker-compose
+* kubernetes
+
 ## 目录结构
 ```
 spring-cloud-alibaba-middleware-install
