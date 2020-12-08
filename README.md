@@ -1,4 +1,4 @@
-# Spring Cloud Alibaba 中间件部署
+# Spring Cloud Alibaba 组件部署
 
 ## 目录结构
 ```
